@@ -1,0 +1,32 @@
+shell = "zsh"
+working_directory = "None"
+live_config_reload = true
+ipc_socket = true
+
+[window]
+decorations = "Full"
+startup_mode = "Maximized"
+title = "Portal to the shellz"
+dynamic_title = true
+class = { instance = "Alacritty", general = "Alacritty" }
+decorations_theme_variant = "Dark"
+resize_increments = false
+
+[scrolling]
+history = 50000
+multiplier = 10
+
+[font]
+normal = { family = "JuliaMono", style = "Regular" }
+bold = { family = "JuliaMono", style = "Bold" }
+italic = { family = "JuliaMono", style = "Italic" }
+bold_italic = { family = "JuliaMono", style = "Bold Italic"}
+size = 11.5
+builtin_box_drawing = true
+
+[colors.primary]
+foreground = "#d8d8d8"
+background = "#181818"
+
+[mouse]
+hide_when_typing = true
