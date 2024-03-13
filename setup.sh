@@ -18,6 +18,5 @@ setup_zsh-autosuggestions() {
 }
 
 setup_zsh-fzf-tab() {
-	sudo pacman -S fzf
 	git clone https://github.com/Aloxaf/fzf-tab ~/.config/zsh/zsh-fzf-tab
 }
