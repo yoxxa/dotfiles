@@ -35,3 +35,4 @@ source ~/.config/zsh/zsh-fzf-tab/fzf-tab.plugin.zsh
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias pytest='python3 -m pytest'
